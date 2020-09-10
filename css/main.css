@@ -1,11 +1,19 @@
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	background: #666;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1,
@@ -40,6 +48,10 @@ header {
 	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 header h1 {
@@ -76,6 +88,10 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	clear:both;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-image {
@@ -152,6 +168,10 @@ footer {
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 footer span {
 	font-family: 'Galada', cursive;
