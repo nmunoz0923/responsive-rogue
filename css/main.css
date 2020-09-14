@@ -198,3 +198,26 @@ footer span {
 	color: #77a466;
 	font-size: 1.14em;
 }
+
+@media (min-width:768px) {
+.section-one, .section-two, .section-three {
+	width: 33%;
+	height: 300px;
+	}
+.section-two {
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+}	
+.reviews {
+	line-height: 1.2;
+	padding: 0px, 150px;
+}
+.menu li{
+	line-height: 1.8;
+	padding: 0;	
+	}
+.bottom-section {
+	display:flex;
+	justify-content:
+	}
+}
