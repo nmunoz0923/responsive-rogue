@@ -200,24 +200,15 @@ footer span {
 }
 
 @media (min-width:768px) {
-.section-one, .section-two, .section-three {
-	width: 33%;
-	height: 300px;
-	}
-.section-two {
-	border-right:1px solid #fff;
-	border-left:1px solid #fff;
-}	
-.reviews {
-	line-height: 1.2;
-	padding: 0px, 150px;
-}
-.menu li{
-	line-height: 1.8;
-	padding: 0;	
-	}
 .bottom-section {
 	display:flex;
-	justify-content:
+	align-items:flex-start;
+	justify-content: space-around;
 	}
+}
+
+@media (min-width:1200px) {
+.bottom-section {
+
+}
 }
