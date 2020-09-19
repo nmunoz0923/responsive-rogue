@@ -204,9 +204,15 @@ footer span {
 	display:flex;
 	align-items:flex-start;
 	justify-content: space-around;
-	width: 33%;
-	justify-content: flex-start;
 	}
+}
+
+.section-one {
+	line-height: 2;
+}
+
+.section-one,.section-two,.section-three {
+	width: 33.3%;
 }
 
 @media (min-width:1200px) {
