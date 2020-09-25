@@ -144,9 +144,51 @@ header nav ul li a{
 	width: 100%;
 }
 
+.section-one,
+.section-two,
+.section-three {
+	flex-basis: 100%;
+}
+
 .section-one h4 {
 	padding: 10px, 0;
 	margin-top: 20px;
+}
+
+.section-one h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-one ul li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-two h4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-two .reviews {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-three h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-three .address {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .section-two h4,
