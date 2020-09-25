@@ -256,14 +256,13 @@ footer span {
 			align-items: left;
 			flex-flow: row wrap;
 		}
-		.section-two {
-			
-		}
-		.section-three {
-			
+		.menu {
+			display:flex;
+			line-height: 2;
+			align-items: left;
+			justify-content:left;
 		}
 }
-
 
 @media only screen and (min-width:1200px) {
 	header nav ul {
