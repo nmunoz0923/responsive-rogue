@@ -241,24 +241,27 @@ footer span {
 	font-size: 1.14em;
 }
 
-@media (min-width:768px) {
+@media all and (min-width:768px) {
 .bottom-section {
 	display:flex;
 	align-items:flex-start;
 	justify-content: space-around;
 	}
+	.section-one {
+		line-height: 2;
+	}
+	.section-two {
+		
+	}
+	.section-three {
+		
+	}
 }
 
-.section-one {
-	line-height: 2;
-}
 
-.section-one,.section-two,.section-three {
-	width: 33.3%;
-}
-
-@media (min-width:1200px) {
-.bottom-section {
-
-}
+@media screen (min-width:1200px) {
+header nav ul {
+	display:flex;
+	justify-content: space-between;
+	}
 }
