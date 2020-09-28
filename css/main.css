@@ -277,7 +277,23 @@ footer span {
 	.menu li {
 		display:flex;
 		justify-content: left;
-		align-text:left;
+		text-align: left;
 		line-height: 1.5;
+	}
+	header nav {
+		width: 40%;
+	}
+	header h1 {
+		width: 30%;
+		padding: 0px;
+		border-bottom: none;
+		text-align:left;
+	}
+	header {
+		justify-content: space-between;
+	}
+	header nav ul li {
+		padding: 20px 10px 0px 10px;
+		margin-left: -100px;
 	}
 }
