@@ -256,9 +256,13 @@ footer span {
 			align-items: left;
 			flex-flow: row wrap;
 		}
-		.menu {
+		.section-one ul li {
 			display:flex;
-			line-height: 2;
+			justify-content:left;
+		}
+		.menu li {
+			display:flex;
+			line-height: 1.5;
 			align-items: left;
 			justify-content:left;
 		}
@@ -269,4 +273,11 @@ footer span {
 		display:flex;
 		justify-content: space-between;
 		}
+
+	.menu li {
+		display:flex;
+		justify-content: left;
+		align-text:left;
+		line-height: 1.5;
+	}
 }
