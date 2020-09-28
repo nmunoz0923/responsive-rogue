@@ -273,13 +273,6 @@ footer span {
 		display:flex;
 		justify-content: space-between;
 		}
-
-	.menu li {
-		display:flex;
-		justify-content: left;
-		text-align: left;
-		line-height: 1.5;
-	}
 	header nav {
 		width: 40%;
 	}
@@ -291,9 +284,5 @@ footer span {
 	}
 	header {
 		justify-content: space-between;
-	}
-	header nav ul li {
-		padding: 20px 10px 0px 10px;
-		margin-left: -100px;
 	}
 }
