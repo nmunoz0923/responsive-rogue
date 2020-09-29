@@ -30,10 +30,6 @@ h4 {
 }
 h1 {
 	font-size: 1.875em;
-	width: 90%;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items:center;
 }
 h2 {
     font-size: 1.5em;
@@ -48,15 +44,15 @@ h4 {
 }
 p {
 	font-size: 1.14em;
-	line-height: 21px;
+	line-height: 1.32em;
     padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
 	width: 100%;
+	text-align: center;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -65,14 +61,13 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 28px 0;
+	padding: 40px 20px 20px 20px;
 	width: 100%;
 	border-bottom:3px solid #77a466;
 }
 
 header h1 span {
 	color: #77a466;
-	margin-right: 10px;
 }
 
 header nav {
@@ -90,9 +85,7 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 1.14em;
 	padding: 0px, 10px;
-	text-align: center;
 	list-style-type: none;
-	margin-bottom: 20px;
 }
 
 header nav ul li a{
@@ -103,17 +96,10 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0px auto;
-	clear: both;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-}
-
-.main-image {
-	/* height: auto; */
-	/* float: left; */
 }
 
 .main-image img {
@@ -122,8 +108,8 @@ header nav ul li a{
 }
 
 .main-title {
-	/* height: auto; */
-	/* float: left; */
+	height: auto;
+
 }
 
 .main-title h3 {
@@ -134,7 +120,7 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: 25px;
+	line-height: 1.6em;
 }
 
 .section-one,
@@ -204,7 +190,6 @@ header nav ul li a{
 .menu {
 	list-style: none;
 	padding: 0;
-	line-height: .5;
 }
 .menu li {
 	padding: 10px 0;
@@ -214,75 +199,65 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: 1.8;
+	line-height: 1.3em;
 }
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
+	line-height: 1.5em; /*or 24px;*/
 }
 
 /*The widths are in a percentage!*/
 footer {
-	border-top: 1px solid #eee;
-	margin: 0px auto;
+	border-top: 3px solid #eee;
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 	flex-flow:row wrap;
-	padding: 20px;
+	width: 100%;
+	padding-top: 10px;
 }
 
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 1.14em;
+	font-size: .87em;
 }
 
 @media all and (min-width:768px) {
 	.bottom-section {
-		width: 100%;
-		display:flex;
-		align-items:flex-start;
-		justify-content: space-around;
-		flex-flow: row;
+			align-items:flex-start;
+			justify-content: space-between;
+			border-top: 1px solid #fff;
 		}
-		.section-one {
-			line-height: 2;
-			display:flex;
-			justify-content: left;
-			align-items: left;
-			flex-flow: row wrap;
+		.section-one, .section-two, .section-three {
+			border-top: none;
+			flex-basis: 30%;
 		}
-		.section-one ul li {
-			display:flex;
-			justify-content:left;
-		}
-		.menu li {
-			display:flex;
-			line-height: 1.5;
-			align-items: left;
-			justify-content:left;
+		.section-two {
+			border-left: 1px solid #eee;
+			border-right: 1px solid #eee;
+			padding: 0 20px;
 		}
 }
 
 @media only screen and (min-width:1200px) {
 	header nav ul {
-		display:flex;
-		justify-content: space-between;
+			display:flex;
+			justify-content: space-between;
 		}
 	header nav {
-		width: 40%;
-	}
+			width: 40%;
+		}
 	header h1 {
-		width: 30%;
-		padding: 0px;
-		border-bottom: none;
-		text-align:left;
-	}
+			width: 30%;
+			padding: 0px;
+			border-bottom: none;
+			text-align:left;
+		}
 	header {
-		justify-content: space-between;
-	}
+			justify-content: space-between;
+		}
 }
