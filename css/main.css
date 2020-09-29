@@ -96,6 +96,11 @@ header nav ul li a{
 
 header nav ul li a:hover {
 	color:black;
+	text-decoration: underline;
+}
+
+header nav ul li a:active {
+	color:burlywood;
 }
 
 /*The widths are in a percentage!*/
@@ -135,63 +140,18 @@ header nav ul li a:hover {
 	width: 100%;
 }
 
-.section-one,
-.section-two,
-.section-three {
-	flex-basis: 100%;
-}
-
-.section-one h4 {
-	padding: 10px, 0;
-	margin-top: 20px;
-}
-
-.section-one h4{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-one ul li {
-	display: flex;
+.section-one h4, 
+.section-two h4, 
+.section-three h4{
+	padding: 20px 0px;
+	display:flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .section-two h4 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding-left: 40px;
 }
-
-.section-two .reviews {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-three h4{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-three .address {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.section-two h4,
-.section-three h4 {
-	padding: 10px 0px;
-	margin-top: 20px;
-}
-
-.section-two p, .section-three p {
-	padding: 0;
-}
-
 .menu {
 	list-style: none;
 	padding: 0;
@@ -205,11 +165,13 @@ header nav ul li a:hover {
 	color: #333;
 	font-size: 1em;
 	line-height: 1.3em;
+	padding-left: 20px;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 1.5em; /*or 24px;*/
+	padding-left: 50px;
 }
 
 /*The widths are in a percentage!*/
@@ -265,4 +227,7 @@ footer span {
 	header {
 			justify-content: space-between;
 		}
+	header nav ul {
+		margin-left: -150px;
+	}
 }
