@@ -84,7 +84,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.14em;
-	padding: 0px, 10px;
+	padding: 0px 10px;
 	list-style-type: none;
 }
 
@@ -140,8 +140,8 @@ header nav ul li a:active {
 	width: 100%;
 }
 
-.section-one h4, 
-.section-two h4, 
+.section-one h4,
+.section-two h4,
 .section-three h4{
 	padding: 20px 0px;
 	display:flex;
@@ -216,7 +216,7 @@ footer span {
 			justify-content: space-between;
 		}
 	header nav {
-			width: 40%;
+			width: 70%;
 		}
 	header h1 {
 			width: 30%;
@@ -227,7 +227,4 @@ footer span {
 	header {
 			justify-content: space-between;
 		}
-	header nav ul {
-		margin-left: -150px;
-	}
 }
